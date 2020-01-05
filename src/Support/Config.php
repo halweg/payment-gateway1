@@ -1,5 +1,5 @@
 <?php
-namespace App\Services\Pay\Support;
+namespace Halweg\SzPaymentGateway\Support;
 
 use ArrayAccess;
 use App\Services\Pay\Exceptions\InvalidArgumentException;

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Pay\Exceptions;
+namespace Halweg\SzPaymentGateway\Exceptions;
 
 class InvalidArgumentException extends \InvalidArgumentException
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Pay\Traits;
+namespace Halweg\SzPaymentGateway\Traits;
 
 use GuzzleHttp\Client;
 use Psr\Http\Message\ResponseInterface;

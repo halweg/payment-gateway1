@@ -1,5 +1,5 @@
 <?php
-namespace App\Services\Pay\Gateways\PaymentAsia;
+namespace Halweg\SzPaymentGateway\Gateways\PaymentAsia;
 
 class WechatWebGateway extends PaymentAsia
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Services\Pay\Contracts;
+namespace Halweg\SzPaymentGateway\Contracts;
 
 interface GatewayInterface
 {
