@@ -1,0 +1,19 @@
+{
+  "name": "halweg\/sz-payment-gateway",
+  "description": "payment sdk for sz",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "halweg",
+      "email": "8688534haowei@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Halweg\\SzPaymentGateway\\": "src"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.5"
+  }
+}
