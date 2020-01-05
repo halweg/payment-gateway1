@@ -2,7 +2,7 @@
 namespace Halweg\SzPaymentGateway\Support;
 
 use ArrayAccess;
-use App\Services\Pay\Exceptions\InvalidArgumentException;
+use Halweg\SzPaymentGateway\Exceptions\InvalidArgumentException;
 
 class Config implements ArrayAccess
 {

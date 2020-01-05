@@ -1,13 +1,13 @@
 <?php
 namespace Halweg\SzPaymentGateway\Gateways\PaymentAsia;
 
-use App\Services\Pay\Contracts\GatewayInterface;
+use Halweg\SzPaymentGateway\Contracts\GatewayInterface;
 
-use App\Services\Pay\Exceptions\GatewayException;
-use App\Services\Pay\Exceptions\InvalidArgumentException;
+use Halweg\SzPaymentGateway\Exceptions\GatewayException;
+use Halweg\SzPaymentGateway\Exceptions\InvalidArgumentException;
 
-use App\Services\Pay\Support\Config;
-use App\Services\Pay\Traits\HasHttpRequest;
+use Halweg\SzPaymentGateway\Support\Config;
+use Halweg\SzPaymentGateway\Traits\HasHttpRequest;
 
 abstract class PaymentAsia implements GatewayInterface
 {

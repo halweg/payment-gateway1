@@ -1,9 +1,9 @@
 <?php
 namespace Halweg\SzPaymentGateway;
 
-use App\Services\Pay\Exceptions\GatewayException;
-use App\Services\Pay\Exceptions\InvalidArgumentException;
-use App\Services\Pay\Support\Config;
+use Halweg\SzPaymentGateway\Exceptions\GatewayException;
+use Halweg\SzPaymentGateway\Exceptions\InvalidArgumentException;
+use Halweg\SzPaymentGateway\Support\Config;
 
 class Pay
 {
