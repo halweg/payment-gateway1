@@ -77,6 +77,9 @@ abstract class PaymentAsia implements GatewayInterface
     public function verify($data, $sign = null, $sync = false)
     {
         $secret = $this->user_config->get('secret');
+        if (!isset($data['sign'])) {
+            return false;
+        }
         $sign = $data['sign'];
         unset($data['sign']);
         ksort($data);
